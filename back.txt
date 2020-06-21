@@ -1,0 +1,15 @@
+mount -o rw,union,update /
+
+mv /System/Library/CoreServices/SystemVersion.plist /System/Library/CoreServices/SystemVersion.bak
+
+mv /System/Library/CoreServices/SystemVersionbak /System/Library/CoreServices/SystemVersion.plist
+
+chmod 755 /System/Library/CoreServices/SystemVersion.plist
+
+launchctl unload /System/Library/LaunchDaemons/com.apple.mobileactivationd.plist
+
+launchctl load /System/Library/LaunchDaemons/com.apple.mobileactivationd.plist
+
+uicache -a
+
+killall backboardd
