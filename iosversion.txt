@@ -1,1 +1,1 @@
-Updated iOS 14.6 (Beta 2) - 18F5055b
+Support Checkrain 0.12.3, Update iOS 14.6 (Beta 2) - 18F5055b
