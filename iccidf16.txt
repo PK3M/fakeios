@@ -1,3 +1,2 @@
-ICCID Perfect Working: OFF
-
+ICCID Perfect (Except ATT/KDDI): 89014103270421600651
 
